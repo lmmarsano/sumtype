@@ -1,0 +1,6 @@
+using S = System;
+
+namespace {{namespace}} {
+	public class {{name}} {
+	}
+}

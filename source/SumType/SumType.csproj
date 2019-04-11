@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Authors>Luis Marsano</Authors>
+		<Product>SumType</Product>
+		<PackageId>LMMarsano.SumType</PackageId>
+		<Title>Sum Type</Title>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Description>Some discriminated unions for C♯ 8.</Description>
+		<PackageProjectUrl>https://github.com/lmmarsano/sumtype/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/lmmarsano/sumtype.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>discriminated union;sum type;tagged union;algebraic data type;maybe;either</PackageTags>
+		<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+		<Copyright>2019</Copyright>
+		<Version>0.0.0</Version>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="*">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" />
+	</ItemGroup>
+</Project>
