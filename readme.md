@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/lmmarsano/sumtype/_apis/build/status/sumtype-CI?branchName=develop)](https://dev.azure.com/lmmarsano/sumtype/_build/latest?definitionId=2&branchName=develop)
 # SumType
 [Discriminated union][tagged-union] types often found in functional programming languages such as Haskell.
 
